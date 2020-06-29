@@ -1,0 +1,13 @@
+{
+    "manifest_version": 2,
+    "name": "Traversy Launcher",
+    "description": "Quick launch SOAL",
+    "version": "1.0.0",
+    "icons": {"128": "SOAL_logo.png"},
+    "browser_action": {
+        "default_icon": "SOAL_logo.png",
+        "default_popup": "popup.html"
+
+    },
+    "permissions": ["activeTab"]
+}
